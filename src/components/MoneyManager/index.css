@@ -1,0 +1,137 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+.home-cont {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.money-manage-cont {
+  display: flex;
+  flex-direction: column;
+}
+.top-banner {
+  border: 0px solid;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 100%;
+  padding: 12px;
+  padding-left: 25px;
+}
+.user-name {
+  font-family: Roboto;
+  color: #1e293b;
+}
+.welcome-text {
+  font-family: Roboto;
+  color: #1e293b;
+  font-size: 12px;
+}
+.app-name {
+  font-family: Roboto;
+  color: #0b69ff;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+.input-form {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+  margin-top: 30px;
+}
+.trans-head {
+  font-family: Roboto;
+  font-size: 16px;
+}
+.user-entry-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+.trans-head {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e293b;
+  text-align: center;
+}
+.label-text {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: bold;
+  color: #7e858e;
+  margin-bottom: 8px;
+}
+.input {
+  outline: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 2px;
+  height: 28px;
+  width: 240px;
+  margin-bottom: 8px;
+  font-family: Roboto;
+  padding: 10px;
+  font-size: 10px;
+}
+.select {
+  border: 1px solid #cbd5e1;
+  border-radius: 2px;
+  height: 28px;
+  width: 240px;
+  margin-bottom: 8px;
+  outline: none;
+  padding: 6px;
+  font-size: 12px;
+}
+.add-btn {
+  border: 0px solid;
+  background-color: #0b69ff;
+  height: 32px;
+  width: 80px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.bottom-cont {
+  display: flex;
+}
+.history-cont {
+  margin-left: 80px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 10px;
+  width: 480px;
+  margin-top: 30px;
+}
+.history {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-left: 20px;
+}
+.history-list {
+  border: 1px solid #cbd5e1;
+  border-radius: 1px;
+  padding: 10px;
+  width: 380px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.column-names-cont {
+  display: flex;
+}
+.col-name {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  color: #334155;
+  margin-right: 50px;
+}
