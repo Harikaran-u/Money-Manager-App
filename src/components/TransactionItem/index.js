@@ -12,7 +12,7 @@ const TransactionItem = props => {
   const historyList = (
     <li className="list-ele">
       <p className="value">{title}</p>
-      <p className="value">{amount}</p>
+      <p className="value">{`Rs ${amount}`}</p>
       <p className="value">{type}</p>
       <button
         className="delete-btn"
